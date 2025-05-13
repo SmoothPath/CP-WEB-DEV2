@@ -8,13 +8,21 @@ let imagens = [
     'src/assets/jaceJS1.avif'
 ];
 
+//Declarando array de legendas de cada imagem
+let legendas = ['Seres 3 — Foto: divulgação/Seres',
+    'Hyundai Kona EV — Foto: divulgação/Hyundai',
+    'BYD Dolphin Plus — Foto: divulgação/BYD ',
+    'JAC e-JS1 — Foto: divulgação/JAC'
+];
+
 //Declarando as variáveis
 let i = 0; 
 let tempo = 3000; //3 segundos para visualização de cada imagem
 
-//Criando a função slideShow
+//Criando a função slideShow para as imagens e legendas
 function slideShow(){
     document.getElementById('imagens').src=imagens[i];
+    document.getElementById('legenda').textContent = legendas[i];
     i++;
 
     if(i == imagens.length){
