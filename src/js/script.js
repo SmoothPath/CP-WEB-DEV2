@@ -2,6 +2,7 @@
 
 //Declarando o array de imagens
 let imagens = [
+    'src/assets/1-Tesla-Model-32.jpg',
     'src/assets/seres3.avif',
     'src/assets/konaEv.avif',
     'src/assets/dolphin.jpg',
@@ -9,7 +10,8 @@ let imagens = [
 ];
 
 //Declarando array de legendas de cada imagem
-let legendas = ['Seres 3 — Foto: divulgação/Seres',
+let legendas = ['Tesla Model 3 — Foto: divulgação/Tesla ',
+    'Seres 3 — Foto: divulgação/Seres',
     'Hyundai Kona EV — Foto: divulgação/Hyundai',
     'BYD Dolphin Plus — Foto: divulgação/BYD ',
     'JAC e-JS1 — Foto: divulgação/JAC'
