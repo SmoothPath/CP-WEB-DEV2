@@ -103,7 +103,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         // definindo a imagem de fundo
         const backgroundImage = 'src/assets/1-Tesla-Model-32.jpg';
         document.getElementById("background").style.backgroundImage = `url('${backgroundImage}')`;
-        } 
+        });
+         
     //Chamando a função para exibir a pergunta
      mostrarPergunta();    
 
