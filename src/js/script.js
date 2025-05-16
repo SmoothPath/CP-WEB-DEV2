@@ -32,7 +32,12 @@ function slideShow(){
     }
    
     setTimeout("slideShow()", tempo);
+
 }
+
+// Criando background do quiz 
+const image = ['1-Tesla-Model-32'];
+document.getElementById("background").style.backgroundImage = `url('${imagens[0]}')`;
 
 //Chamando a função
 slideShow();

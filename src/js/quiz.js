@@ -1,6 +1,9 @@
 
 document.addEventListener('DOMContentLoaded',()=>{
 
+
+ 
+
     //Utilizando o DOM para manipular os elementos da página
     const pergunta = document.getElementById('pergunta');
     const resposta = document.getElementById('resposta');
@@ -95,7 +98,14 @@ document.addEventListener('DOMContentLoaded',()=>{
      proximaPergunta.addEventListener('click',nextQuestao);
      reiniciarBotao.addEventListener('click',reiniciarQuiz);
 
-     //Chamando a função para exibir a pergunta
-     mostrarPergunta();
+     
+    document.addEventListener('DOMContentLoaded',()=> {
+        // definindo a imagem de fundo
+        const backgroundImage = 'src/assets/1-Tesla-Model-32.jpg';
+        document.getElementById("background").style.backgroundImage = `url('${backgroundImage}')`;
+        } 
+    //Chamando a função para exibir a pergunta
+     mostrarPergunta();    
 
-})
+
+});
