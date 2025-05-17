@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #007bff;
+}
+main {
+    padding-top: 100px;
+    padding: 100px 40px 40px 40px;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+    }
+}
+
+
+/* QUIZ*/
+#container-quiz{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    
+}
+
+ #background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image:url(../assets/1-Tesla-Model-32.jpg), url(../assets/dolphin.jpg), url(../assets/jaceJS1.avif) ;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+#quizBox {
+  position: relative; 
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+
+.quiz{
+    background: #CCC;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #555;
+    width: 80%;
+    max-width: 600px;
+}
+
+.quiz h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:blue;
+}
+
+#container-perguntas h2{
+    color:green;
+    margin-bottom: 20px;
+}
+#container-respostas{
+    margin-bottom: 20px;
+}
+#resposta{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#proximo{
+    background: rgb(0, 145, 255);
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+#proximo:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#container-resultado {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#container-resultado h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#lista-resultado {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-resultado li {
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#lista-resultado li:last-child {
+    border-bottom: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#inicio-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#inicio-btn:hover {
+    background-color: #1e7e34;
+}
