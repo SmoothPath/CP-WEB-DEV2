@@ -337,11 +337,29 @@ body.sobre {
     height: auto;      
 }
 
-.container-sobre about {
 
-}
 
 /*titulo-carro*/
 .titulo-carro {
     color: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer.container.sobre {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
 }
