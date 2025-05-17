@@ -4,3 +4,5 @@ Gustavo Torres - 561613
 Geovana Cardoso - 566254
 Gabriel Cardoso - 562103
 Mariana Egito - 562544
+
+link do repositório: https://github.com/SmoothPath/CP-WEB-DEV2.git
