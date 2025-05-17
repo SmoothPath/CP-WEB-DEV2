@@ -205,7 +205,7 @@ body {
 
     h1 {
       text-align: center;
-      color: #333;
+      color: #00FF94;
     }
 
     .card-container {
@@ -297,21 +297,21 @@ body.sobre {
 
 .container-sobre h2 {
   font-size: 1.5rem;
-  color: #222;
+  color: #00FF94;
   margin-bottom: 10px;
 }
 
 .container-sobre p {
   font-size: 1rem;
   text-align: justify;
-  color: #555;
+  color: #eee;
 }
 
 /* Lista de valores */
 .container-sobre ul {
   list-style-type: disc;
   padding-left: 20px;
-  color: #555;
+  color: #eee;
 }
 
 .container-sobre ul li {
@@ -326,5 +326,17 @@ body.sobre {
 
 .container-sobre {
     margin-top: 200px;
-    background-color: antiquewhite;
+    background-color: #121C24;
+    color: #eee;
+}
+
+/*logo*/
+
+.logo{
+    width: 120px;
+    height: auto;      
+}
+
+.container-sobre about {
+
 }
