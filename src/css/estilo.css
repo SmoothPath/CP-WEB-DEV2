@@ -26,6 +26,7 @@ header {
     font-weight: bold;
     color: #333;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -54,6 +55,36 @@ main {
         gap: 15px;
         margin-top: 10px;
     }
+}
+
+.apresentacacao {
+    margin-top: 120px; /* para compensar o header fixo */
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.apresentacacao img {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s ease-in-out;
+}
+
+.apresentacacao p#legenda {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
 }
 
 
@@ -93,7 +124,7 @@ main {
 
 
 .quiz{
-    background: #CCC;
+    background:#CCC;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #555;
@@ -104,11 +135,11 @@ main {
 .quiz h1{
     text-align: center;
     margin-bottom: 20px;
-    color:blue;
+    color: rgb(0, 145, 255);
 }
 
 #container-perguntas h2{
-    color:green;
+    color: #333;
     margin-bottom: 20px;
 }
 #container-respostas{
@@ -175,7 +206,7 @@ main {
 }
 
 #inicio-btn {
-    background-color: #28a745;
+    background-color: rgb(0, 145, 255);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -187,7 +218,7 @@ main {
 }
 
 #inicio-btn:hover {
-    background-color: #1e7e34;
+    background-color:  #0056b3;
 }
 
 /* pagina carros*/
